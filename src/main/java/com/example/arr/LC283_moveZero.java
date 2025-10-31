@@ -47,8 +47,9 @@ public class LC283_moveZero implements LeetCodeProblem {
     @Override
     public void test() {
         int[] nums = {0, 1, 0, 3, 12};
+        System.out.print("题目283：移动零，输入："+ Arrays.toString(nums));
         moveZeroes(nums);
-        System.out.printf(Arrays.toString(nums));
+        System.out.println("运行方法后：" + Arrays.toString(nums));
     }
 
     public static void main(String[] args) {
