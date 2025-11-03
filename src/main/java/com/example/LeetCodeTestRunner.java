@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.arr.LC27_removeElement;
 import com.example.arr.LC283_moveZero;
 import com.example.arr.LC704_halfSearch;
 
@@ -10,5 +11,7 @@ public class LeetCodeTestRunner {
         new LC283_moveZero().test();
         // 折半查找
         new LC704_halfSearch().test();
+        // 移除相同元素
+        new LC27_removeElement().test();
     }
 }
