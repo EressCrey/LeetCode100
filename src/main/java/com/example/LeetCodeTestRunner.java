@@ -15,5 +15,9 @@ public class LeetCodeTestRunner {
         new LC977_sortedSquares().test();
         // 长度最小的子数组
         new LC209_minSubArrayLen().test();
+        // 生成螺旋矩阵
+        new LC56_generateMatrix().test();
+        // 合并数组区间
+        new LC59_merge().test();
     }
 }
